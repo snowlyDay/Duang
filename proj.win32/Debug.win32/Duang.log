@@ -1,13 +1,17 @@
-﻿生成启动时间为 2015/4/3 17:33:17。
+﻿生成启动时间为 2015/4/7 19:13:07。
      1>项目“F:\CocosProject\Duang\proj.win32\Duang.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\audio\include" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\external" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\external\chipmunk\include\chipmunk" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\extensions" /I..\Classes /I.. /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\GameScene.cpp
          GameScene.cpp
-     1>f:\cocosproject\duang\classes\gamescene.cpp(114): warning C4305: “参数”: 从“double”到“float”截断
-     1>f:\cocosproject\duang\classes\gamescene.cpp(115): warning C4996: 'cocos2d::CallFunc::create': 被声明为已否决
+     1>f:\cocosproject\duang\classes\gamescene.cpp(116): warning C4996: 'cocos2d::CCRectMake': 被声明为已否决
+                 c:\cocos\frameworks\cocos2d-x-3.4rc1\cocos\deprecated\ccdeprecated.h(388) : 参见“cocos2d::CCRectMake”的声明
+     1>f:\cocosproject\duang\classes\gamescene.cpp(117): warning C4996: 'cocos2d::CCRectMake': 被声明为已否决
+                 c:\cocos\frameworks\cocos2d-x-3.4rc1\cocos\deprecated\ccdeprecated.h(388) : 参见“cocos2d::CCRectMake”的声明
+     1>f:\cocosproject\duang\classes\gamescene.cpp(140): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\cocosproject\duang\classes\gamescene.cpp(141): warning C4996: 'cocos2d::CallFunc::create': 被声明为已否决
                  c:\cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\ccactioninstant.h(309) : 参见“cocos2d::CallFunc::create”的声明
-     1>f:\cocosproject\duang\classes\gamescene.cpp(123): warning C4305: “参数”: 从“double”到“float”截断
-     1>f:\cocosproject\duang\classes\gamescene.cpp(125): warning C4996: 'cocos2d::CallFunc::create': 被声明为已否决
+     1>f:\cocosproject\duang\classes\gamescene.cpp(149): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\cocosproject\duang\classes\gamescene.cpp(151): warning C4996: 'cocos2d::CallFunc::create': 被声明为已否决
                  c:\cocos\frameworks\cocos2d-x-3.4rc1\cocos\2d\ccactioninstant.h(309) : 参见“cocos2d::CallFunc::create”的声明
        PreLinkEvent:
          if not exist "F:\CocosProject\Duang\proj.win32\Debug.win32\" mkdir "F:\CocosProject\Duang\proj.win32\Debug.win32\"
@@ -26,4 +30,4 @@
 
 生成成功。
 
-已用时间 00:00:11.31
+已用时间 00:00:07.44

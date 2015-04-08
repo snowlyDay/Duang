@@ -19,7 +19,8 @@ private:
 	float speed;
 	bool isRight;
 	bool isJumping;
-
+	 
+	bool checkIsCon(Sprite* v, Sprite* v1);
 
 	MotionStreak *streak;
 	Sprite *player;
